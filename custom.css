@@ -1,0 +1,124 @@
+#header {
+  background-color: rgb(231, 231, 231);
+}
+
+#blogtable {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#blogtable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#blogtable tr:nth-child(even){background-color: #f2f2f2;}
+
+#blogtable tr:hover {background-color: #ddd;}
+
+#blogtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #1098ad;
+  color: white;
+}
+
+.space {
+  background-color: #1098ad !important;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+input[type=pesan] {
+  width: 100%;
+  padding: 40px 20px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.button {
+  background-color: #1098ad ;
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 18px;
+  cursor: pointer;
+  margin: auto;
+  position: center;
+}
+
+#konfirmasi {
+  align-content: center;
+}
+
+th, td {
+  padding: 20px;
+}
+
+legend {
+  color: #1098ad;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: initial;
+  text-align: center;
+}
+
+/*Table*/
+table {
+  margin: auto;
+}
+
+/*Select in register*/
+.select-dropdown,
+.select-dropdown * {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.select-dropdown {
+  position: relative;
+  background-color: white;
+  border-radius: 4px;
+}
+.select-dropdown select {
+  font-size: 1rem;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  appearance: none;
+}
+.select-dropdown select:active, .select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.select-dropdown:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid black;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
